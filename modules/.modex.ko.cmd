@@ -1,0 +1,1 @@
+cmd_/home/girish/Documents/KernPro/modules/modex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/girish/Documents/KernPro/modules/modex.ko /home/girish/Documents/KernPro/modules/modex.o /home/girish/Documents/KernPro/modules/modex.mod.o ;  true
